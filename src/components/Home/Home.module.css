@@ -1,0 +1,84 @@
+.body{
+    text-align: center;
+}
+.country{
+    font-size: 25px;
+    color: rgb(119, 115, 115);
+    margin-left: 40px;
+}
+.city{
+  margin-left: 30px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: rgb(119, 115, 115);
+}
+.heading{
+    color:rgb(134, 186, 204);
+    margin-top: 15px;
+    position: relative;
+    z-index: -100;
+}
+
+
+.spinner{
+    width: 120px; 
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+
+.loader {
+   
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  input{
+    border: none;
+    border: 1px solid black;
+    outline: none;
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .button{
+    background: orange;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    margin-left: 10px;
+    padding: 15px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 20px;
+  }
+
+  .button:hover{
+    padding: 15px;
+    outline: none;
+    background: white;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 20px;
+}
+  
+  

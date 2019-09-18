@@ -1,0 +1,72 @@
+.body{
+    padding: 20px;
+    height: 450px;
+    width: 75%;
+    display: block;
+    margin: 30px auto;
+    -webkit-box-shadow: 2px 2px 6px -1px rgba(0,0,0,0.27);
+    -moz-box-shadow: 2px 2px 6px -1px rgba(0,0,0,0.27);
+    box-shadow: 2px 2px 6px -1px rgba(0,0,0,0.27);
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+.date{
+    margin-right: 6%;
+    font-size: 25px;
+    font-family: 'Arial';
+    color:orange;
+    float:right;
+}
+
+.button{
+    padding: 10px 60px;
+    outline: none;
+    background: rgb(115, 115, 248);
+    border: 1px solid white;
+    color: white;
+    float:right;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 120px;
+    position: absolute;
+    top: 410px;
+    right: 250px;
+}
+
+.button:hover{
+    padding: 10px 60px;
+    outline: none;
+    background: white;
+    border: 1px solid rgb(89, 89, 206);
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 410px;
+    right: 250px;
+}
+
+table{
+    margin-left: 100px;
+    margin-top: 40px;  
+}
+
+.td2{
+    
+    font-size: 20px;
+    padding: 2px 80px;
+}
+.td{
+    
+    background-color: lightblue;
+    font-size: 20px;
+    padding: 2px 80px;
+}
+
+.img {
+    position: absolute;
+    right: 300px;
+    top: 450px;
+}
